@@ -544,6 +544,7 @@ export interface ApiEmpreedimentoEmpreedimento
     metrics: Schema.Attribute.JSON;
     name: Schema.Attribute.String & Schema.Attribute.Required;
     publishedAt: Schema.Attribute.DateTime;
+    realizacao_2: Schema.Attribute.Media<'images'>;
     release: Schema.Attribute.String;
     social_medias: Schema.Attribute.Relation<
       'oneToMany',

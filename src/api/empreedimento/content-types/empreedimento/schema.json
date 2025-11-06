@@ -117,6 +117,14 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "realizacao_2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
